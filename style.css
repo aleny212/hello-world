@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+body {
+  color: rgba(29, 30, 49, 0.589);
+  font: Normal 16px Arial;
+  line-height: 1.5em;
+}
+.container {
+  width: 100%;
+  margin: auto;
+}
+.box-1 {
+  background-color: rgb(29, 99, 197);
+  margin: 0;
+  border: 5px rgb(160, 98, 98) dotted;
+  padding: 20px;
+}
+.categories {
+  border: 1px yellow solid;
+  padding: 10px;
+  border-radius: 15px;
+}
