@@ -1,23 +1,32 @@
 * {
   margin: 0;
+  padding: 0;
 }
+
 body {
-  color: rgba(29, 30, 49, 0.589);
-  font: Normal 16px Arial;
-  line-height: 1.5em;
+  background-color: rgb(207, 204, 204);
+  font-family: Arial, Helvetica, sans-serif;
 }
-.container {
-  width: 100%;
-  margin: auto;
-}
-.box-1 {
-  background-color: rgb(29, 99, 197);
+
+#navbar {
   margin: 0;
-  border: 5px rgb(160, 98, 98) dotted;
-  padding: 20px;
+  background-color: bisque;
+  height: 40px;
 }
-.categories {
-  border: 1px yellow solid;
-  padding: 10px;
-  border-radius: 15px;
+
+#navbar ul {
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding-right: 15px;
 }
