@@ -11,7 +11,7 @@ body {
 #navbar ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0px 10px;
   overflow: hidden;
   background-color: rgb(137, 152, 187);
 }
@@ -36,11 +36,9 @@ body {
 
 #showcase {
   margin: 0;
-  background-image: url(showcase.png);
+  background-image: url(https://uploads.codesandbox.io/uploads/user/2fd8d8e6-16b9-4319-8c33-bf2c9427894e/RtcY-showcase.png);
   background-position: center, right;
   height: 500px;
-  /*width: 100%;
-  background-size: 100%;*/
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -54,23 +52,52 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  
 }
 
 .container-flex img {
-  height: 300px;
- 
+  height: 260px;
+
   padding: 20px;
+  border-radius: 2rem;
 }
 .container-flex img:hover {
   opacity: 0.5;
 }
 
+.main-content1 {
+  background-color: rgb(230, 205, 205);
+  margin: 0;
+  padding: 0;
+}
+.main-content2 {
+  background-color: rgb(200, 211, 214);
+}
+.main-content2 h1 {
+  margin: 0;
+  padding: 0;
+}
+
 #main-footer {
   background-color: rgb(137, 152, 187);
-
+  font-size: 10px;
   text-align: center;
+
   padding: 20px;
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container li {
+  display: inline;
+  list-style-type: none;
+  text-align: left;
+}
+.container li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+  font-size: 13px;
+}
+
+.container li a:hover {
+  color: rgb(63, 65, 97);
 }
