@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(207, 204, 204);
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -56,24 +56,33 @@ body {
 
 .container-flex img {
   height: 260px;
-
   padding: 20px;
   border-radius: 2rem;
 }
 .container-flex img:hover {
   opacity: 0.5;
 }
+div {
+  display: block;
+}
 
 .main-content1 {
-  background-color: rgb(230, 205, 205);
+  background-color: #c0d0cf;
   margin: 0;
   padding: 0;
+  width: 50%;
+  height: 400px;
+}
+.main-content1 img {
+  float: right;
+  height: 300px;
+  width: 70%;
 }
 .main-content2 {
   background-color: rgb(200, 211, 214);
 }
 .main-content2 h1 {
-  margin: 0;
+  margin: 10;
   padding: 0;
 }
 
