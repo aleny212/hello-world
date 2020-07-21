@@ -68,18 +68,21 @@ body {
 }
 
 .box1 p {
+  background-color: #e7b5a8;
   text-align: center;
   height: 500px;
   float: right;
   width: 50%;
-  border-style: dotted;
   color: gray;
   font-size: 30px;
   font-weight: bold;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-
+.box1 img {
+  padding: 3%;
+  height: 400px;
+}
 .main-content1 {
   background-color: #c0d0cf;
   margin: 0;
@@ -88,7 +91,7 @@ body {
 }
 .main-content1 img {
   float: right;
-  height: 300px;
+  height: 320px;
   width: 80%;
 }
 
@@ -102,10 +105,10 @@ body {
 }
 
 .main-content2 {
-  background-color: rgb(200, 211, 214);
+  background-color: rgb(170, 199, 185);
 }
 .main-content2 h1 {
-  margin: 10;
+  margin: 0;
   padding: 0;
 }
 
